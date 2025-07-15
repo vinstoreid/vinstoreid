@@ -1,123 +1,686 @@
+
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VINSTORE.ID - Top-Up Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VINSTORE.ID - Semua Game Online</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #0a0a0a;
+      background: #0d0d0d;
       color: white;
     }
     header {
-      background: linear-gradient(to right, #6a00ff, #350058);
-      padding: 1.5rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
       text-align: center;
-      border-bottom: 5px solid #ffffff33;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-    .slogan {
-      font-size: 1rem;
-      color: #ccc;
-      margin-top: 0.5rem;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
       padding: 2rem;
     }
-    .card {
-      background: #1a1a1a;
-      border: 2px solid #ffffff22;
-      padding: 1rem;
-      border-radius: 1rem;
-      text-align: center;
-      transition: transform 0.2s ease;
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
     }
-    .card:hover {
-      transform: scale(1.03);
-      border-color: #6a00ff;
-    }
-    .card h2 {
-      margin: 0.5rem 0;
-    }
-    .card button {
+    header p {
+      font-size: 1.1rem;
       margin-top: 0.5rem;
-      background: #6a00ff;
-      color: white;
+    }
+    .games {
+      padding: 2rem;
+    }
+    .games h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .game-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+    .game {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .game img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 0.5rem;
+    }
+    .game button {
+      padding: 0.4rem 1rem;
+      background: #28a745;
       border: none;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem;
+      border-radius: 5px;
+      color: white;
       cursor: pointer;
     }
-    .card button:hover {
-      background: #4e00cc;
-    }
-    .payments {
-      text-align: center;
-      margin-top: -1rem;
-      padding: 0 2rem 2rem 2rem;
-      font-size: 0.95rem;
-      color: #ddd;
-    }
     footer {
-      background: #111;
+      background: #000;
+      padding: 1.5rem;
       text-align: center;
-      padding: 2rem 1rem;
-      color: #aaa;
-      font-size: 0.875rem;
+      color: #bbb;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>VINSTORE.ID</h1>
-    <p class="slogan">Top-Up Game Termurah, Terpercaya, Tercepat & AMANAH</p>
+    <p>Top-Up Game Termurah, Terpercaya, Tercepat & AMANAH</p>
   </header>
+  <section class="games">
+    <h2>100+ Game Online Tersedia</h2>
+    <div class="game-list">
+      
+    <div class="game">
+      <img src="https://i.ibb.co/p6HpZQH4/bde76572-f701-4ffd-ae15-5c936233fe6b.jpg" alt="Mobile Legends">
+      <strong>Mobile Legends</strong><br>
+      <button>Top-Up</button>
+    </div>
 
-  <section class="products">
-    <!-- Game List -->
-    <div class="card"><h2>Mobile Legends</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Mobile%20Legends'">Top Up</button></div>
-<div class="card"><h2>Free Fire</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Free%20Fire'">Top Up</button></div>
-<div class="card"><h2>PUBG Mobile</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20PUBG%20Mobile'">Top Up</button></div>
-<div class="card"><h2>Genshin Impact</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Genshin%20Impact'">Top Up</button></div>
-<div class="card"><h2>Honkai: Star Rail</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Honkai:%20Star%20Rail'">Top Up</button></div>
-<div class="card"><h2>Call of Duty Mobile</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Call%20of%20Duty%20Mobile'">Top Up</button></div>
-<div class="card"><h2>Arena of Valor</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Arena%20of%20Valor'">Top Up</button></div>
-<div class="card"><h2>Valorant</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Valorant'">Top Up</button></div>
-<div class="card"><h2>Roblox</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Roblox'">Top Up</button></div>
-<div class="card"><h2>Point Blank</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Point%20Blank'">Top Up</button></div>
-<div class="card"><h2>Steam Wallet</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Steam%20Wallet'">Top Up</button></div>
-<div class="card"><h2>League of Legends</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20League%20of%20Legends'">Top Up</button></div>
-<div class="card"><h2>Wild Rift</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Wild%20Rift'">Top Up</button></div>
-<div class="card"><h2>Dota 2</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Dota%202'">Top Up</button></div>
-<div class="card"><h2>Sausage Man</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Sausage%20Man'">Top Up</button></div>
-<div class="card"><h2>Higgs Domino</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Higgs%20Domino'">Top Up</button></div>
-<div class="card"><h2>Tower of Fantasy</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Tower%20of%20Fantasy'">Top Up</button></div>
-<div class="card"><h2>Dragon Nest 2</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Dragon%20Nest%202'">Top Up</button></div>
-<div class="card"><h2>Google Play Voucher</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Google%20Play%20Voucher'">Top Up</button></div>
-<div class="card"><h2>iTunes Gift Card</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20iTunes%20Gift%20Card'">Top Up</button></div>
-<div class="card"><h2>PSN Card</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20PSN%20Card'">Top Up</button></div>
-<div class="card"><h2>Xbox Gift Card</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Xbox%20Gift%20Card'">Top Up</button></div>
-<div class="card"><h2>Clash of Clans</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Clash%20of%20Clans'">Top Up</button></div>
-<div class="card"><h2>LifeAfter</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20LifeAfter'">Top Up</button></div>
-<div class="card"><h2>Super Sus</h2><button onclick="window.location.href='https://wa.me/6282163418720?text=Topup%20Super%20Sus'">Top Up</button></div>
+    <div class="game">
+      <img src="https://i.ibb.co/NYDRYRM/freefire.jpg" alt="Free Fire">
+      <strong>Free Fire</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/mFNfX2Cq/583b8bde-789d-4ab3-9249-4403d50862b7.jpg">
+      <strong>PUBG Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/y4PM2CT/genshin.jpg" alt="Genshin Impact">
+      <strong>Genshin Impact</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/tJdqMx1/honkai.jpg" alt="Honkai Star Rail">
+      <strong>Honkai Star Rail</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/j3NS4WW/valorant.jpg" alt="Valorant">
+      <strong>Valorant</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/3hpy08H/codm.jpg" alt="Call of Duty Mobile">
+      <strong>Call of Duty Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/XCWDgMW/aov.jpg" alt="Arena of Valor">
+      <strong>Arena of Valor</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/Xz7Z8pW/coc.jpg" alt="Clash of Clans">
+      <strong>Clash of Clans</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/vVhmfbb/domino.jpg" alt="Higgs Domino">
+      <strong>Higgs Domino</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/yYBkBHZ/roblox.jpg" alt="Roblox">
+      <strong>Roblox</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/Z27PDJh/minecraft.jpg" alt="Minecraft">
+      <strong>Minecraft</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/4FVgfZW/sausage.jpg" alt="Sausage Man">
+      <strong>Sausage Man</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/0GZm5p7/lolwr.jpg" alt="LOL Wild Rift">
+      <strong>LOL Wild Rift</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/Yyp1gGh/riseofkingdoms.jpg" alt="Rise of Kingdoms">
+      <strong>Rise of Kingdoms</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/XkDJH3R/lifeafter.jpg" alt="LifeAfter">
+      <strong>LifeAfter</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/GFvbqJ2/ragnarok.jpg" alt="Ragnarok Origin">
+      <strong>Ragnarok Origin</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/gTt82Gp/lordsmobile.jpg" alt="Lords Mobile">
+      <strong>Lords Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/kSkm9Mp/identityv.jpg" alt="Identity V">
+      <strong>Identity V</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/wg6dYSC/apex.jpg" alt="Apex Legends Mobile">
+      <strong>Apex Legends Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/fqNQ6Wv/speeddrifters.jpg" alt="Speed Drifters">
+      <strong>Speed Drifters</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ZLV9r0M/hago.jpg" alt="HAGO">
+      <strong>HAGO</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/g4zC3ZT/ayodance.jpg" alt="AyoDance Mobile">
+      <strong>AyoDance Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/7X7MDHJ/8ballpool.jpg" alt="8 Ball Pool">
+      <strong>8 Ball Pool</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/gW0bW2M/clashroyale.jpg" alt="Clash Royale">
+      <strong>Clash Royale</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/gTqNRnR/perfectworld.jpg" alt="Perfect World">
+      <strong>Perfect World</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/xM9VFYg/opmworld.jpg" alt="One Punch Man: World">
+      <strong>One Punch Man: World</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/bP6nsr0/wot.jpg" alt="World of Tanks Blitz">
+      <strong>World of Tanks Blitz</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/xgwFx2P/ros.jpg" alt="Rules of Survival">
+      <strong>Rules of Survival</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/5xNPgZ3/pb.jpg" alt="Point Blank">
+      <strong>Point Blank</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/NrFzcvd/crossfire.jpg" alt="CrossFire">
+      <strong>CrossFire</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/0K0fqJ2/blackdesert.jpg" alt="Black Desert Mobile">
+      <strong>Black Desert Mobile</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/TPq6Mmw/warrobots.jpg" alt="War Robots">
+      <strong>War Robots</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/6mPYhxp/summonerswar.jpg" alt="Summoners War">
+      <strong>Summoners War</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/3Ttkn1p/dragonraja.jpg" alt="Dragon Raja">
+      <strong>Dragon Raja</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/GQHzz1n/ffxv.jpg" alt="Final Fantasy XV">
+      <strong>Final Fantasy XV</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/0jQjsJ4/mu2.jpg" alt="MU Origin 2">
+      <strong>MU Origin 2</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/M8F6nGh/lineagew.jpg" alt="Lineage W">
+      <strong>Lineage W</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/Wkr0S13/talesofwind.jpg" alt="Tales of Wind">
+      <strong>Tales of Wind</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/QYRpNCR/dragonnest2.jpg" alt="Dragon Nest 2">
+      <strong>Dragon Nest 2</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/XtRjF2p/torchlight.jpg" alt="Torchlight Infinite">
+      <strong>Torchlight Infinite</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 42">
+      <strong>Game Online 42</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 43">
+      <strong>Game Online 43</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 44">
+      <strong>Game Online 44</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 45">
+      <strong>Game Online 45</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 46">
+      <strong>Game Online 46</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 47">
+      <strong>Game Online 47</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 48">
+      <strong>Game Online 48</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 49">
+      <strong>Game Online 49</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 50">
+      <strong>Game Online 50</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 51">
+      <strong>Game Online 51</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 52">
+      <strong>Game Online 52</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 53">
+      <strong>Game Online 53</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 54">
+      <strong>Game Online 54</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 55">
+      <strong>Game Online 55</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 56">
+      <strong>Game Online 56</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 57">
+      <strong>Game Online 57</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 58">
+      <strong>Game Online 58</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 59">
+      <strong>Game Online 59</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 60">
+      <strong>Game Online 60</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 61">
+      <strong>Game Online 61</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 62">
+      <strong>Game Online 62</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 63">
+      <strong>Game Online 63</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 64">
+      <strong>Game Online 64</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 65">
+      <strong>Game Online 65</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 66">
+      <strong>Game Online 66</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 67">
+      <strong>Game Online 67</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 68">
+      <strong>Game Online 68</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 69">
+      <strong>Game Online 69</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 70">
+      <strong>Game Online 70</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 71">
+      <strong>Game Online 71</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 72">
+      <strong>Game Online 72</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 73">
+      <strong>Game Online 73</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 74">
+      <strong>Game Online 74</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 75">
+      <strong>Game Online 75</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 76">
+      <strong>Game Online 76</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 77">
+      <strong>Game Online 77</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 78">
+      <strong>Game Online 78</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 79">
+      <strong>Game Online 79</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 80">
+      <strong>Game Online 80</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 81">
+      <strong>Game Online 81</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 82">
+      <strong>Game Online 82</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 83">
+      <strong>Game Online 83</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 84">
+      <strong>Game Online 84</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 85">
+      <strong>Game Online 85</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 86">
+      <strong>Game Online 86</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 87">
+      <strong>Game Online 87</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 88">
+      <strong>Game Online 88</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 89">
+      <strong>Game Online 89</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 90">
+      <strong>Game Online 90</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 91">
+      <strong>Game Online 91</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 92">
+      <strong>Game Online 92</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 93">
+      <strong>Game Online 93</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 94">
+      <strong>Game Online 94</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 95">
+      <strong>Game Online 95</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 96">
+      <strong>Game Online 96</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 97">
+      <strong>Game Online 97</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 98">
+      <strong>Game Online 98</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 99">
+      <strong>Game Online 99</strong><br>
+      <button>Top-Up</button>
+    </div>
+
+    <div class="game">
+      <img src="https://i.ibb.co/ck2HcLz/defaultgame.jpg" alt="Game Online 100">
+      <strong>Game Online 100</strong><br>
+      <button>Top-Up</button>
+    </div>
+    </div>
   </section>
-
-  <div class="payments">
-    <p>Metode Pembayaran: DANA, GoPay, BRI, BNI, BCA, SeaBank</p>
-    <p>Hubungi kami via WhatsApp: <a href="https://wa.me/6282163418720" style="color: #bbb;">0821-6341-8720</a></p>
-  </div>
-
   <footer>
-    <p>© 2025 VINSTORE.ID - All rights reserved.</p>
-    <p>Follow Instagram kami: <a href="https://instagram.com/vinstore.id" style="color: #ccc;">@vinstore.id</a></p>
+    <p>Hubungi WA: 082163418720 | Pembayaran: DANA, GoPay, BRI, BNI, BCA, SeaBank</p>
+    <p>&copy; 2025 VINSTORE.ID</p>
   </footer>
 </body>
 </html>
